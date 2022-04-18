@@ -1,4 +1,4 @@
-FROM debian:9.5-silm
+FROM debian
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chomd +x /entrypoint.sh
